@@ -6,7 +6,6 @@
     "name": "Phi Đen",
     "url": "https://www.facebook.com/cu.en.135449/"
   },
-
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -59,9 +58,9 @@
     "nodemailer": "^6.9.13",
     "nookies": "^2.5.2",
     "normalize-wheel": "^1.0.1",
-    "react": "^19.1.0",
+    "react": "^18.2.0",
     "react-calendly": "^4.3.0",
-    "react-dom": "^19.1.0",
+    "react-dom": "^18.2.0",
     "react-google-recaptcha": "^3.1.0",
     "react-gtm-module": "^2.0.11",
     "react-hook-form": "^7.51.4",
@@ -79,8 +78,8 @@
   },
   "devDependencies": {
     "@types/node": "^20.12.9",
-    "@types/react": "18.2.61",
-    "@types/react-dom": "18.2.22",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "autoprefixer": "^10.4.19",
     "eslint-config-next": "15.1.6",
     "postcss": "^8.4.38",

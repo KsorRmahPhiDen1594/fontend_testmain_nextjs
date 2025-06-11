@@ -18,7 +18,7 @@ const HeroSection = ({
       <span>campaigns</span>, and extensive <span>maintenance</span>
     </>
   ),
-  videoLink = "https://www.youtube.com/embed/Gl465-ugqbM?si=Njv8OZykPsz9LsYZ",
+  videoLink = "https://www.youtube.com/embed/NdYBrWJExYc",
   cta = <HeroCTA />,
 }: {
   H1: ReactElement;

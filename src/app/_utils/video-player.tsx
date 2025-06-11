@@ -4,7 +4,7 @@ import VideoPlayButton from "@/components/assets/video-play-button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 const VideoPlayer = ({
-  videoLink = "https://www.youtube.com/embed/Gl465-ugqbM?si=Njv8OZykPsz9LsYZ",
+  videoLink = "https://www.youtube.com/embed/NdYBrWJExYc",
 }: {
   videoLink: string;
 }) => {
