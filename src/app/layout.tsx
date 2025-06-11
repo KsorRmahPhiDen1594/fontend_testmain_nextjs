@@ -12,9 +12,13 @@ import { Poppins, Lato } from "next/font/google";
 import UnderConstruction from "@/components/molecule/under-construction";
 import { Toaster as ToasterSonner } from "sonner";
 import { cookies } from "next/headers";
-import { CalDotComProvider, DataLayerProvider, TagManagerProvider } from "@/lib/scripts";
-import { NextIntlClientProvider } from 'next-intl';
-import { getLocale } from 'next-intl/server';
+import {
+  CalDotComProvider,
+  DataLayerProvider,
+  TagManagerProvider,
+} from "@/lib/scripts";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale } from "next-intl/server";
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -34,7 +38,7 @@ declare global {
 }
 
 export const metadata: Metadata = {
-  title: "Sociomatic | Digital Solutions for Growth",
+  title: "Phần mềm quản trị doanh nghiệp toàn diện ERPViet",
   description:
     "Elevate your online presence with Sociomatic. We provide cutting-edge digital marketing and web development services, delivering measurable results for businesses worldwide.",
 };
@@ -48,9 +52,13 @@ export default async function RootLayout({
   const locale = await getLocale();
 
   return (
-    <html lang="locale">
+    <html lang={locale}>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link
+          rel="icon"
+          href="/images/pages/home/brands/logofavicon.png"
+          sizes="any"
+        />
         <DataLayerProvider />
         <CalDotComProvider />
       </head>

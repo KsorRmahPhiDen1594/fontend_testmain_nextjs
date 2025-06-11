@@ -53,7 +53,7 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                         <NavigationMenuItem>
                           <NavigationMenuTrigger
                             className={`${pathname.includes(item.link)
-                              ? "text-secondary font-semibold"
+                              ? "text-purple-800 font-semibold"
                               : "text-primary"
                               }`}
                           >
@@ -65,8 +65,8 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                                 <a
                                   key={child.id}
                                   href={child.link}
-                                  className={`text-primary hover:text-secondary [&>*]:text-xs ${pathname === child.link
-                                    ? "text-secondary font-semibold"
+                                  className={`text-primary hover:text-purple-800 [&>*]:text-xs ${pathname === child.link
+                                    ? "text-purple-800 font-semibold"
                                     : "text-primary"
                                     }`}
                                 >
@@ -83,9 +83,9 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                             legacyBehavior
                             passHref
                             className={`${pathname === "/"
-                              ? "text-secondary font-semibold"
+                              ? "text-purple-800 font-semibold"
                               : pathname.includes(item.link)
-                                ? "text-secondary font-semibold"
+                                ? "text-purple-800 font-semibold"
                                 : "text-primary"
                               }`}
                           >
@@ -93,8 +93,8 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                               className={navigationMenuTriggerStyle()}
                             >
                               <span
-                                className={`hover:text-secondary ${pathname === item.link
-                                  ? "text-secondary font-semibold"
+                                className={`text-purple-800 ${pathname === item.link
+                                  ? "text-purple-500 font-semibold"
                                   : "text-primary"
                                   }`}
                               >
@@ -161,7 +161,7 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                       >
                         <CollapsibleTrigger
                           className={`flex items-center justify-start small-gap ${pathname.includes(linkItem.link)
-                            ? "text-secondary font-semibold"
+                            ? "text-purple-800 font-semibold"
                             : "text-primary"
                             }`}
                         >
@@ -177,7 +177,7 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                                   href={child.link}
                                   className={
                                     pathname === child.link
-                                      ? "text-secondary font-semibold"
+                                      ? "text-purple-800 font-semibold"
                                       : "text-primary"
                                   }
                                 >
@@ -193,7 +193,7 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                         href={linkItem.link}
                         className={
                           pathname === linkItem.link
-                            ? "text-secondary font-semibold"
+                            ? "text-purple-800 font-semibold"
                             : "text-primary"
                         }
                       >
@@ -207,7 +207,7 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                 href="/dashboard"
                 className={
                   pathname.includes("/dashboard")
-                    ? "text-secondary font-semibold"
+                    ? "text-purple-800 font-semibold"
                     : "text-primary"
                 }
               >
@@ -345,3 +345,6 @@ const Links = [
     link: "/contact-us",
   },
 ];
+
+
+//text-secondary
