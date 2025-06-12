@@ -32,7 +32,8 @@ const HeroSection = ({
       <section className={`${backgroundImage} bg-center bg-cover`}>
         <div className="container section grid grid-cols-1 lg:grid-cols-2 items-center large-gap">
           <ANIM__FadeInOnScroll className="order-2 lg:order-1 flex flex-col small-gap">
-            <h1 className="text-primary [&>span]:text-secondary">{H1}</h1>
+            {/* đổi màu chữ ở gần youtube trang welcome ở đây - Phi Đen */}
+            <h1 className="text-primary [&>span]: text-purple-800">{H1}</h1>
             <p className="hero-description">{P}</p>
             {cta ? (
               <div className="flex flex-wrap items-center small-gap">{cta}</div>

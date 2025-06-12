@@ -18,12 +18,12 @@ const SectionHead = ({
   return (
     <ANIM__FadeInOnScroll className="flex flex-col items-center justify-center small-gap max-w-[566px] mx-auto text-center">
       {highlighter ? (
-        <p className="text-[12px] md:text-[16px] text-secondary font-semibold inline-block px-4 py-[4px] rounded-full border border-primary/20">
+        <p className="text-[12px] md:text-[16px] text-purple-800 font-semibold inline-block px-4 py-[4px] rounded-full border border-primary/20">
           {highlighter}
         </p>
       ) : null}
       {H2 ? (
-        <h2 className="text-primary [&>span]:text-secondary">{H2}</h2>
+        <h2 className="text-primary [&>span]: text-purple-800">{H2}</h2>
       ) : null}
       {paragraphs.length
         ? paragraphs.map((item: any, index: number) => {
