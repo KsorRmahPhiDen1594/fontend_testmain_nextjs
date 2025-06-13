@@ -238,7 +238,7 @@ D:.
 │   ├───terms-and-conditions
 │   │   │   page.tsx                         # Trang điều khoản và điều kiện
 │   │   │
-│   │   └───_partials
+│   │   └───_partials   
 │   │       └───_components
 │   │               terms-and-conditions.tsx # Component hiển thị nội dung điều khoản
 │   │
@@ -246,7 +246,7 @@ D:.
 │   │       layout.tsx                       # Bố cục cho trang xác minh
 │   │       page.tsx                         # Trang xử lý xác minh (email, tài khoản, v.v.)
 │   │
-│   └───_utils
+│   └───_utils  
 │           calendly.tsx                     # Component tích hợp lịch hẹn Calendly
 │           carousel.tsx                     # Component hiển thị carousel (trình chiếu)
 │           faq.tsx                          # Component câu hỏi thường gặp

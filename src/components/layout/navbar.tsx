@@ -63,6 +63,7 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                             {item.children.map((child: any) => {
                               return (
                                 <a
+                                // ở đây là đổi màu font tính năng giải pháp
                                   key={child.id}
                                   href={child.link}
                                   className={`text-primary hover:text-purple-800 [&>*]:text-xs ${pathname === child.link
@@ -93,7 +94,8 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                               className={navigationMenuTriggerStyle()}
                             >
                               <span
-                                className={`text-purple-800 ${pathname === item.link
+                              // ở đây là tha đổi màu trên header
+                                className={`text-primary ${pathname === item.link
                                   ? "text-purple-500 font-semibold"
                                   : "text-primary"
                                   }`}
@@ -232,7 +234,7 @@ const Links = [
   },
   {
     id: 2,
-    text: "Case Studies",
+    text: "Tính Năng",
     link: "/case-studies",
     children: [
       {
@@ -279,7 +281,7 @@ const Links = [
   },
   {
     id: 3,
-    text: "Services",
+    text: "Giải Pháp",
     link: "/services",
     children: [
       {
@@ -331,17 +333,27 @@ const Links = [
   },
   {
     id: 4,
-    text: "Reviews",
+    text: "Dịch Vụ",
     link: "/reviews",
   },
   {
     id: 5,
-    text: "About us",
-    link: "/about-us",
+    text: "Báo Giá",
+    link: "/quote",
   },
   {
     id: 6,
-    text: "Contact us",
+    text: "Blog",
+    link: "/about-us",
+  },
+  {
+    id: 7,
+    text: "Tài Liệu",
+    link: "/about-us",
+  },
+  {
+    id: 8,
+    text: "Liên Hệ",
     link: "/contact-us",
   },
 ];

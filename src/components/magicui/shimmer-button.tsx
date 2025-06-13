@@ -40,8 +40,8 @@ const ShimmerButton = React.forwardRef<HTMLButtonElement, ShimmerButtonProps>(
           } as CSSProperties
         }
         className={cn(
-          // màu đổi màu btn ở đây - Phi Đen
-          "w-full h-10 px-[16px] py-[11px] md:px-[20px] md:py-[15px] group relative z-0 flex cursor-pointer items-center justify-center overflow-hidden whitespace-nowrap border border-white/30 ring-1 ring-purple-600 text-white [background:var(--bg)] [border-radius:var(--radius)] dark:text-black font-semibold shadow-md hover:shadow-2xl",
+          // màu đổi màu btn ở đây home - Phi Đen
+          "w-full h-10 px-[16px] py-[11px] md:px-[20px] md:py-[15px] group relative z-0 flex cursor-pointer items-center justify-center overflow-hidden whitespace-nowrap border border-white/30 ring-1 ring-purple-800 text-white [background:var(--bg)] [border-radius:var(--radius)] dark:text-primary font-semibold shadow-md hover:shadow-2xl",
           "transform-gpu transition-transform duration-300 ease-in-out active:translate-y-[1px]",
           className
         )}
