@@ -1,5 +1,5 @@
 export const modules = [
-  { id: 1, name: 'Thảo luận', price: 0, category: 'Công cụ' },
+  // { id: 1, name: 'Thảo luận', price: 0, category: 'Công cụ' },
   { id: 2, name: 'Ghi chú', price: 0, category: 'Công cụ' },
   { id: 3, name: 'Danh bạ', price: 0, category: 'Công cụ' },
   { id: 4, name: 'Lịch', price: 0, category: 'Công cụ' },
