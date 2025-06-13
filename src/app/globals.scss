@@ -6,6 +6,12 @@
 
 
 
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -99,6 +105,9 @@ h1,
 h2 {
   @apply font-[var(--font-lato)];
   font-weight: 600;
+  white-space: nowrap; // Ngăn ngắt dòng, giữ "Thời gian - Chi phí" trên cùng dòng
+  overflow: hidden;    // Ẩn phần thừa nếu container quá nhỏ
+  text-align: center;  // Đảm bảo căn giữa
 }
 
 h1 {
@@ -263,3 +272,4 @@ svg {
     image-rendering: auto;
   }
 }
+

@@ -1,171 +1,170 @@
-import BlueGoogle from "@/components/assets/blue-google";
-import Campaigns from "@/components/assets/campaigns";
-import CodeCloud from "@/components/assets/code-cloud";
 import Competition from "@/components/assets/competition";
-import Feather from "@/components/assets/feather";
 import GeoTargetting from "@/components/assets/geo-targetting";
-import GoogleAnalytics from "@/components/assets/google-analytics";
 import LongTermPartnership from "@/components/assets/long-term-partnership";
-import PenTool from "@/components/assets/pen-tool";
 import Popular from "@/components/assets/popular";
 import Premium from "@/components/assets/premium";
 import ROI from "@/components/assets/roi";
-import Shopify from "@/components/assets/shopify";
 import SME from "@/components/assets/sme";
 import Starter from "@/components/assets/starter";
 import TargetAudience from "@/components/assets/target-audience";
-import Wordpress from "@/components/assets/wordpress";
 import Link from "next/link";
 
+
+// ở đây đổi 9 cart ở trang welcome
 export const homeFeaturesData = [
   {
     id: 1,
-    image: <BlueGoogle />,
-    title: "Google Paid Advertising",
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo cơ bản",
     description: (
       <>
-        Enhance Google platform ad strategies for effective{" "}
-        <span>demand-driven</span> results.
-      </>
-    ),
-    list: ["Google search PPC and display", "Google shopping", "YouTube Ads"],
-    link: "/services/google-paid-ads",
-  },
-  {
-    id: 2,
-    image: <CodeCloud />,
-    title: "Software Development",
-    description: (
-      <>
-        We <span>craft quality software</span> for Mobile, Web, and Desktop,
-        applications with embracing any challenge.
+        Khóa học nhập môn sử dụng phần mềm quản trị ERP cho người mới
       </>
     ),
     list: [
-      "We approach with MVP for SDLC",
-      "Agile for project management",
-      "MVC, Clean and other architectures",
+      "Giới thiệu giao diện, thao tác chính, quy trình chuẩn cơ bản", 
+      "Phù hợp với tất cả nhân sự lần đầu sử dụng ERP", 
+      "Giúp xây nền tảng vững chắc trước khi học nâng cao"],
+    link: "/services/google-paid-ads",
+  },
+
+  {
+    id: 2,
+    image: <img src="/images/pages/home/brands/xtrain2.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo nâng cao",
+    description: (
+      <>
+        Khóa học chuyên sâu theo phân hệ: kế toán, bán hàng, mua hàng, sản xuất…
+      </>
+    ),
+    list: [
+      "Dành cho quản lý, trưởng bộ phận hoặc chuyên viên nghiệp vụ",
+      "Hướng dẫn xử lý nghiệp vụ phức tạp và tối ưu quy trình",
+      "Giúp khai thác toàn diện sức mạnh hệ thống",
     ],
     link: "/services/software-development",
   },
+
   {
     id: 3,
-    image: <Campaigns />,
-    title: "Social Media Paid Advertising",
+    image: <img src="/images/pages/home/brands/xtrain3.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo theo vai trò",
     description: (
       <>
-        We leverage data to boost your social media ad <span>ROI</span>&nbsp;
-        and&nbsp;
-        <span>increase</span> your revenue
+        Đào tạo riêng biệt cho từng vị trí như kế toán, nhân sự, điều hành, kho…
       </>
     ),
     list: [
-      "Facebook & Instagram Ads",
-      "Linkedin & Twitter Ads",
-      "TikTok & Pinterest Ads",
+      "Người học chỉ tập trung vào phần mình sử dụng",
+      "Giảm thời gian đào tạo, tăng hiệu quả tiếp thu",
+      "Dễ triển khai đại trà trong doanh nghiệp",
     ],
     link: "/services/social-media-paid-ads",
   },
+  
   {
     id: 4,
-    image: <GoogleAnalytics />,
-    title: "Data Analytics",
-    description: (
+    image: <img src="/images/pages/home/brands/xtrain4.png" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo theo lĩnh vực",
+        description: (
       <>
-        Obtain your <span>personalized</span> real-time dashboard for live
-        performance updates
+        Khóa học thiết kế riêng theo ngành: sản xuất, bán lẻ, dịch vụ, xây dựng…
       </>
     ),
     list: [
-      "Event & Target Setup",
-      "User Behaviour",
-      "Google Analytics",
-      "Google Tag Manager",
-      "Looker Studio",
+      "Quy trình mô phỏng đúng thực tế của từng lĩnh vực",
+      "Giúp doanh nghiệp triển khai nhanh và sát nhu cầu",
+      "Tăng tỷ lệ ứng dụng thành công",
     ],
     link: "/services/data-analytics",
   },
+
+
   {
     id: 5,
-    image: <Wordpress />,
-    title: "Wordpress Development",
-    description: (
+    image: <img src="/images/pages/home/brands/xtrain5.png" alt="Đào tạo cơ bản" width="92" height="92" />,
+    title: "Đào tạo triển khai",
+            description: (
       <>
-        Crafting <span>custom</span>, user-friendly websites using the power of
-        WordPress
+        Hướng dẫn đội ngũ IT và nội bộ triển khai hệ thống ERP từ A–Z
       </>
     ),
     list: [
-      "Custom Design and Development",
-      "Plugin Integration and Functionality",
-      "Security and Maintenance",
+      "Phân tích yêu cầu, cấu hình hệ thống, kiểm thử UAT",
+      "Tự chủ triển khai mà không lệ thuộc hoàn toàn bên ngoài",
+      "Tiết kiệm chi phí triển khai và bảo trì",
     ],
     link: "/services/wordpress-development",
   },
+
   {
     id: 6,
-    image: <Shopify />,
-    title: "Shopify Store Development",
-    description: (
+    image: <img src="/images/pages/home/brands/xtrain6.png" alt="Đào tạo cơ bản" width="92" height="92" />,
+    title: "Đào tạo quản trị hệ thống",
+            description: (
       <>
-        Crafting <span>high-converting</span> Shopify stores for your e-commerce
-        success.
+        Trang bị kiến thức cho quản trị viên hệ thống ERP
       </>
     ),
     list: [
-      "Custom Store Design",
-      "Product and Inventory Management",
-      "Payment and Security Integration",
+      "Quản lý user, phân quyền, sao lưu dữ liệu, bảo mật thông tin",
+      "Theo dõi hiệu suất và vận hành hệ thống ổn định",
+      "Phù hợp cho IT hoặc team kỹ thuật nội bộ",
     ],
     link: "/services/shopify-store-development",
   },
+
   {
     id: 7,
-    image: <PenTool />,
-    title: "UI/UX & Graphic Design",
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo đào tạo viên (Train the Trainer)",
+
     description: (
       <>
-        Crafting experiences that leave users spellbound and&nbsp;
-        <span>corporate branding</span>
-      </>
-    ),
-    list: ["Research on project", "Wireframe & prototype", "Responsive design"],
-    link: "/services/ui-ux-and-graphic-design",
-  },
-  {
-    id: 8,
-    image: <Feather />,
-    title: "Content Writing & SEO",
-    description: (
-      <>
-        Crafting <span>custom</span>, user-friendly websites using the power of
-        WordPress
+        Đào tạo nhân sự nội bộ có khả năng hướng dẫn lại cho người khác
       </>
     ),
     list: [
-      "Custom Design and Development",
-      "Plugin Integration and Functionality",
-      "Security and Maintenance",
+      "Tạo nhân bản người dùng trong công ty", 
+      "Giảm phụ thuộc vào bên thứ ba khi mở rộng nhân sự", 
+      "Thúc đẩy văn hóa học tập nội bộ"
+    ],
+    link: "/services/ui-ux-and-graphic-design",
+  },
+
+  {
+    id: 8,
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo từ xa – Online",
+    description: (
+      <>
+        Các khóa học online qua video hoặc Zoom có tài liệu và bài tập thực hành
+      </>
+    ),
+    list: [
+      "Học mọi lúc, mọi nơi, dễ dàng truy cập và ôn tập lại",
+      "Phù hợp với nhân sự làm việc từ xa hoặc chi nhánh khác",
+      "Linh hoạt nhưng vẫn đảm bảo chất lượng",
     ],
     link: "/services/content-writing-and-seo",
   },
-  // {
-  //   id: 9,
-  //   image: <Contents />,
-  //   title: "Content Development",
-  //   description: (
-  //     <>
-  //       Crafting <span>high-converting</span> Shopify stores for your e-commerce
-  //       success.
-  //     </>
-  //   ),
-  //   list: [
-  //     "Custom Store Design",
-  //     "Product and Inventory Management",
-  //     "Payment and Security Integration",
-  //   ],
-  //   link: "/services/shopify-store-development",
-  // },
+
+  {
+    id: 9,
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo cập nhật phiên bản",
+    description: (
+      <>
+        Khi hệ thống ERP được nâng cấp, người dùng cần được cập nhật lại
+      </>
+    ),
+    list: [
+      "Đào tạo tính năng mới, quy trình mới",
+      "Tránh nhầm lẫn khi sử dụng phiên bản mới",
+      "Đảm bảo người dùng luôn làm đúng thao tác chuẩn",
+    ],
+    link: "/services/shopify-store-development",
+  },
 ];
 
 export const homeTestimonialData = {

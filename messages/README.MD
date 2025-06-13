@@ -1,0 +1,6 @@
+    en.json    # File chứa các chuỗi ngôn ngữ cho tiếng Anh (English)
+    ja.json    # File chứa các chuỗi ngôn ngữ cho tiếng Nhật (Japanese)
+    ko.json    # File chứa các chuỗi ngôn ngữ cho tiếng Hàn (Korean)
+    lo.json    # File chứa các chuỗi ngôn ngữ cho tiếng Lào (Lao)
+    th.json    # File chứa các chuỗi ngôn ngữ cho tiếng Thái (Thai)
+    vi.json    # File chứa các chuỗi ngôn ngữ cho tiếng Việt (Vietnamese)

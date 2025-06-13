@@ -1,5 +1,3 @@
-Dưới đây là full code của file `README.md` đã được chỉnh chu, chuyên nghiệp và tích hợp chi tiết với ERPViet (https://erpviet.vn/). Bạn có thể sao chép toàn bộ nội dung này và dán trực tiếp vào file `README.md` trong dự án của bạn.
-
 ---
 
 # 🚀 ERPViet Integration Platform - by <span style="color:#6C63FF; font-weight: bold;">Phi Đen</span>
@@ -265,5 +263,3 @@ Hãy truy cập [https://erpviet.vn/](https://erpviet.vn/) để đăng ký dùn
    - Đảm bảo nội dung dài, chi tiết nhưng dễ đọc.
 
 ---
-
-Hãy dán nội dung này vào file `README.md` của bạn và đẩy lên GitHub. Nếu cần điều chỉnh thêm, hãy cho tôi biết nhé! 🚀

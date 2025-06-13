@@ -37,11 +37,11 @@ const Hero = ({
       <ANIM__FadeInOutOnScroll className="container flex flex-col items-center justify-center gap-[32px]">
         <Tagline text={tagline} />
         {titleStyle === "heading1" ? (
-          <h1 className="h1 text-primary text-center [&>span]:text-secondary">
+          <h1 className="h1 text-primary text-center [&>span]:text-purple-800">
             {title}
           </h1>
         ) : (
-          <h2 className="h2 text-primary text-center [&>span]:text-secondary">
+          <h2 className="h2 text-purple-800 text-center [&>span]:text-purple-800">
             {title}
           </h2>
         )}
@@ -55,7 +55,7 @@ const Hero = ({
                 className="inline-flex items-center gap-2 [&>svg]:stroke-[2px] [&>svg]:stroke-secondary"
               >
                 {icon}
-                <p className="inline-flex gap-1 [&>span]:text-primary font-medium text-primary/50 [&>span]:font-bold">
+                <p className="inline-flex gap-1 [&>span]:text-purple-800 font-medium text-purple-800/50 [&>span]:font-bold">
                   {text}
                 </p>
               </div>

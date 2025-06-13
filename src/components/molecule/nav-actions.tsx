@@ -29,7 +29,7 @@ const NavActions = ({ token }: { token: string | undefined | null }) => {
   ];
   return !token ? (
     <Link href="/scale-with-ads">
-      <ShimmerButton>Scale now</ShimmerButton>
+      <ShimmerButton>Bứt Phá Doanh Thu</ShimmerButton>
     </Link>
   ) : (
     <Popover>

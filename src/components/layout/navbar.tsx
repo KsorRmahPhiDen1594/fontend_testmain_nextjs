@@ -53,7 +53,7 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                         <NavigationMenuItem>
                           <NavigationMenuTrigger
                             className={`${pathname.includes(item.link)
-                              ? "text-secondary font-semibold"
+                              ? "text-purple-900 font-semibold"
                               : "text-primary"
                               }`}
                           >
@@ -63,10 +63,11 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                             {item.children.map((child: any) => {
                               return (
                                 <a
+                                // ở đây là đổi màu font tính năng giải pháp
                                   key={child.id}
                                   href={child.link}
-                                  className={`text-primary hover:text-secondary [&>*]:text-xs ${pathname === child.link
-                                    ? "text-secondary font-semibold"
+                                  className={`text-primary hover:text-purple-900 [&>*]:text-xs ${pathname === child.link
+                                    ? "text-purple-900 font-semibold"
                                     : "text-primary"
                                     }`}
                                 >
@@ -83,9 +84,10 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                             legacyBehavior
                             passHref
                             className={`${pathname === "/"
-                              ? "text-secondary font-semibold"
+                              // ở đây đổi màu bức phá doanh thu
+                              ? "text-purple-900 font-semibold"
                               : pathname.includes(item.link)
-                                ? "text-secondary font-semibold"
+                                ? "text-purple-900 font-semibold"
                                 : "text-primary"
                               }`}
                           >
@@ -93,8 +95,9 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                               className={navigationMenuTriggerStyle()}
                             >
                               <span
-                                className={`hover:text-secondary ${pathname === item.link
-                                  ? "text-secondary font-semibold"
+                              // ở đây Home xuất hiện trên navbar
+                                className={`text-primary ${pathname === item.link
+                                  ? "text-purple-900 font-semibold"
                                   : "text-primary"
                                   }`}
                               >
@@ -161,7 +164,7 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                       >
                         <CollapsibleTrigger
                           className={`flex items-center justify-start small-gap ${pathname.includes(linkItem.link)
-                            ? "text-secondary font-semibold"
+                            ? "text-purple-800 font-semibold"
                             : "text-primary"
                             }`}
                         >
@@ -177,7 +180,7 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                                   href={child.link}
                                   className={
                                     pathname === child.link
-                                      ? "text-secondary font-semibold"
+                                      ? "text-purple-800 font-semibold"
                                       : "text-primary"
                                   }
                                 >
@@ -193,7 +196,7 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                         href={linkItem.link}
                         className={
                           pathname === linkItem.link
-                            ? "text-secondary font-semibold"
+                            ? "text-purple-800 font-semibold"
                             : "text-primary"
                         }
                       >
@@ -207,7 +210,7 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                 href="/dashboard"
                 className={
                   pathname.includes("/dashboard")
-                    ? "text-secondary font-semibold"
+                    ? "text-purple-800 font-semibold"
                     : "text-primary"
                 }
               >
@@ -232,7 +235,7 @@ const Links = [
   },
   {
     id: 2,
-    text: "Case Studies",
+    text: "Tính Năng",
     link: "/case-studies",
     children: [
       {
@@ -279,7 +282,7 @@ const Links = [
   },
   {
     id: 3,
-    text: "Services",
+    text: "Giải Pháp",
     link: "/services",
     children: [
       {
@@ -331,17 +334,32 @@ const Links = [
   },
   {
     id: 4,
-    text: "Reviews",
+    text: "Dịch Vụ",
     link: "/reviews",
   },
   {
     id: 5,
-    text: "About us",
-    link: "/about-us",
+    text: "Báo Giá",
+    link: "/quote",
   },
   {
     id: 6,
-    text: "Contact us",
+    text: "Blog",
+    link: "/about-us",
+  },
+  {
+    id: 7,
+    text: "Tài Liệu",
+    link: "/about-us",
+  },
+  {
+    id: 8,
+    text: "Liên Hệ",
     link: "/contact-us",
   },
 ];
+
+
+//text-secondary
+
+// đổi màu các chữ menutab ở đây - Phi Đen

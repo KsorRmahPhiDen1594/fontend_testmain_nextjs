@@ -1,4 +1,3 @@
-// components/ANIM__FadeInOutOnScroll.tsx
 "use client";
 
 import React, { useEffect, ReactNode } from "react";

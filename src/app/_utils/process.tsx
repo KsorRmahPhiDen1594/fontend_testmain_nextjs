@@ -15,7 +15,7 @@ const OurProcess = () => {
       <div className="bg-[url('/images/backgrounds/ProcessBackgrid.svg')] bg-center bg-cover">
         <div className="container section">
           <SectionHead
-            highlighter="Our Process"
+            highlighter="Quy trình của chúng tôi"
             H2={<>{t("OurProcess.title")}</>}
             paragraphs={[
               <>

@@ -17,9 +17,7 @@ const HowWeWork = () => {
           H2={<>Getting started with us</>}
           paragraphs={[
             <>
-              We&apos;ll listen to <span> your goals</span> and complete a free
-              audit to discover if we&apos;re a great fit to work with each
-              other.
+              Chúng tôi&apos;sẽ lắng nghe mục tiêu <span>của bạn</span> và thực hiện cuộc kiểm toán miễn phí để xem liệu&apos;chúng ta có phù hợp để làm việc cùng nhau hay không.
             </>,
           ]}
         />

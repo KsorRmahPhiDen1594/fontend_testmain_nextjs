@@ -10,7 +10,7 @@ const OurServices = ({ FeaturesData }: { FeaturesData: any }) => {
     <section className="bg-[url('/images/backgrounds/SquareBackground.svg')] bg-center bg-cover">
       <div className="container section flex flex-col large-gap">
         <SectionHead
-          highlighter="Our Service"
+          highlighter="Dịch vụ của chúng tôi"
           H2={<>{t("OurServices.title")}</>}
           paragraphs={[
             <>
