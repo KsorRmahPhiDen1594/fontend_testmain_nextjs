@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Services | Sociomatic",
+  title: "Dịch vụ của chúng tôi | Sociomatic",
   description:
     "Explore Sociomatic's comprehensive services, from digital marketing strategies to web development solutions. Discover how we can elevate your business in the digital landscape.",
 };

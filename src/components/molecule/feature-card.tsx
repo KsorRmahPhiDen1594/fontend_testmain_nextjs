@@ -1,21 +1,21 @@
 import { ReactElement } from "react";
-import BlueGoogle from "../assets/blue-google";
+// import BlueGoogle from "../assets/blue-google";
 import { BadgeCheck } from "lucide-react";
 import Link from "next/link";
 import ANIM__FadeInOutOnScroll from "../anims/fadein.anim";
 
 const FeatureCard = ({
-  image = <BlueGoogle />,
-  title = "Google Paid Advertising",
+  image = <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+  title = "Đào tạo cơ bản",
   description,
-  list = ["Google search PPC and display", "Google shopping", "YouTube Ads"],
+  list = ["Đáp ứng mọi yêu cầu của doanh nghiệp", "Mạnh mẽ hơn hầu hết các phần mềm quản trị doanh nghiệp thông thường khác", "Thân thiện - Dễ sử dụng"],
   link,
 }: {
-  image: ReactElement;
-  title: string;
-  description: ReactElement | undefined;
-  list: any;
-  link: string;
+  image?: ReactElement;
+  title?: string;
+  description?: ReactElement;
+  list?: any;
+  link?: string;
 }) => {
   return (
 <ANIM__FadeInOutOnScroll className="rounded-[10px] border border-black hover:border-purple-800 bg-white/5 backdrop-blur-[8px] hover:backdrop-blur-[8px] w-full px-[25px] py-[50px] shadow-[0_4px_25px_0_rgba(89,86,255,0.05)] transition ease-in-out duration-500 hover:scale-[1.05]">    

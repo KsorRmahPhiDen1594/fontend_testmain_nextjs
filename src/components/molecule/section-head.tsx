@@ -2,12 +2,11 @@ import { ReactElement } from "react";
 import ANIM__FadeInOnScroll from "../anims/fadein.anim";
 
 const SectionHead = ({
-  highlighter = "Our Services",
-  H2 = <>Understanding Your Business</>,
+  highlighter = "Dịch vụ của chúng tôi",
+  H2 = <>Giải pháp trọn gói tiết kiệm Thời gian - Chi phí</>,
   paragraphs = [
     <>
-      We&apos;ll listen to <span>your goals</span> and complete a free audit to
-      discover if we&apos;re a great fit to work with each other.
+      Chúng tôi sẽ lắng nghe mục tiêu <span>của bạn</span> và thực hiện cuộc kiểm toán miễn phí để xem liệu chúng ta có phù hợp để làm việc cùng nhau hay không.
     </>,
   ],
 }: {

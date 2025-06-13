@@ -105,6 +105,9 @@ h1,
 h2 {
   @apply font-[var(--font-lato)];
   font-weight: 600;
+  white-space: nowrap; // Ngăn ngắt dòng, giữ "Thời gian - Chi phí" trên cùng dòng
+  overflow: hidden;    // Ẩn phần thừa nếu container quá nhỏ
+  text-align: center;  // Đảm bảo căn giữa
 }
 
 h1 {

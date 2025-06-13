@@ -1,79 +1,69 @@
-import BlueGoogle from "@/components/assets/blue-google";
-import Campaigns from "@/components/assets/campaigns";
-import CodeCloud from "@/components/assets/code-cloud";
 import Competition from "@/components/assets/competition";
-import Feather from "@/components/assets/feather";
 import GeoTargetting from "@/components/assets/geo-targetting";
-import GoogleAnalytics from "@/components/assets/google-analytics";
 import LongTermPartnership from "@/components/assets/long-term-partnership";
-import PenTool from "@/components/assets/pen-tool";
 import Popular from "@/components/assets/popular";
 import Premium from "@/components/assets/premium";
 import ROI from "@/components/assets/roi";
-import Shopify from "@/components/assets/shopify";
 import SME from "@/components/assets/sme";
 import Starter from "@/components/assets/starter";
 import TargetAudience from "@/components/assets/target-audience";
-import Wordpress from "@/components/assets/wordpress";
 import Link from "next/link";
 
 export const homeFeaturesData = [
   {
     id: 1,
-    image: <BlueGoogle />,
-    title: "Google Paid Advertising",
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo cơ bản",
     description: (
       <>
-        Enhance Google platform ad strategies for effective{" "}
-        <span>demand-driven</span> results.
+        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
+        <span>ERPViet</span>
       </>
     ),
-    list: ["Google search PPC and display", "Google shopping", "YouTube Ads"],
+    list: ["Đáp ứng mọi yêu cầu của doanh nghiệp", "Mạnh mẽ hơn hầu hết các phần mềm quản trị doanh nghiệp thông thường khác", "Thân thiện - Dễ sử dụng"],
     link: "/services/google-paid-ads",
   },
   {
     id: 2,
-    image: <CodeCloud />,
-    title: "Software Development",
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo cơ bản",
     description: (
       <>
-        We <span>craft quality software</span> for Mobile, Web, and Desktop,
-        applications with embracing any challenge.
+        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
+        <span>ERPViet</span>
       </>
     ),
     list: [
-      "We approach with MVP for SDLC",
-      "Agile for project management",
-      "MVC, Clean and other architectures",
+      "Đáp ứng mọi yêu cầu của doanh nghiệp",
+      "Mạnh mẽ hơn hầu hết các phần mềm quản trị doanh nghiệp thông thường khác",
+      "Thân thiện - Dễ sử dụng",
     ],
     link: "/services/software-development",
   },
   {
     id: 3,
-    image: <Campaigns />,
-    title: "Social Media Paid Advertising",
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo cơ bản",
     description: (
       <>
-        We leverage data to boost your social media ad <span>ROI</span>&nbsp;
-        and&nbsp;
-        <span>increase</span> your revenue
+        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
+        <span>ERPViet</span>
       </>
     ),
     list: [
-      "Facebook & Instagram Ads",
-      "Linkedin & Twitter Ads",
-      "TikTok & Pinterest Ads",
+      "Đáp ứng mọi yêu cầu của doanh nghiệp",
+      "Mạnh mẽ hơn hầu hết các phần mềm quản trị doanh nghiệp thông thường khác",
     ],
     link: "/services/social-media-paid-ads",
   },
   {
     id: 4,
-    image: <GoogleAnalytics />,
-    title: "Data Analytics",
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo cơ bản",
     description: (
       <>
-        Obtain your <span>personalized</span> real-time dashboard for live
-        performance updates
+        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
+        <span>ERPViet</span>
       </>
     ),
     list: [
@@ -87,12 +77,12 @@ export const homeFeaturesData = [
   },
   {
     id: 5,
-    image: <Wordpress />,
-    title: "Wordpress Development",
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo cơ bản",
     description: (
       <>
-        Crafting <span>custom</span>, user-friendly websites using the power of
-        WordPress
+        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
+        <span>ERPViet</span>
       </>
     ),
     list: [
@@ -104,12 +94,12 @@ export const homeFeaturesData = [
   },
   {
     id: 6,
-    image: <Shopify />,
-    title: "Shopify Store Development",
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo cơ bản",
     description: (
       <>
-        Crafting <span>high-converting</span> Shopify stores for your e-commerce
-        success.
+        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
+        <span>ERPViet</span>
       </>
     ),
     list: [
@@ -121,12 +111,12 @@ export const homeFeaturesData = [
   },
   {
     id: 7,
-    image: <PenTool />,
-    title: "UI/UX & Graphic Design",
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo cơ bản",
     description: (
       <>
-        Crafting experiences that leave users spellbound and&nbsp;
-        <span>corporate branding</span>
+        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
+        <span>ERPViet</span>
       </>
     ),
     list: ["Research on project", "Wireframe & prototype", "Responsive design"],
@@ -134,12 +124,12 @@ export const homeFeaturesData = [
   },
   {
     id: 8,
-    image: <Feather />,
-    title: "Content Writing & SEO",
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo cơ bản",
     description: (
       <>
-        Crafting <span>custom</span>, user-friendly websites using the power of
-        WordPress
+        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
+        <span>ERPViet</span>
       </>
     ),
     list: [
