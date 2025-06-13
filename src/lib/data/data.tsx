@@ -9,6 +9,8 @@ import Starter from "@/components/assets/starter";
 import TargetAudience from "@/components/assets/target-audience";
 import Link from "next/link";
 
+
+// ở đây đổi 9 cart ở trang welcome
 export const homeFeaturesData = [
   {
     id: 1,

@@ -53,7 +53,7 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                         <NavigationMenuItem>
                           <NavigationMenuTrigger
                             className={`${pathname.includes(item.link)
-                              ? "text-purple-800 font-semibold"
+                              ? "text-purple-900 font-semibold"
                               : "text-primary"
                               }`}
                           >
@@ -66,8 +66,8 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                                 // ở đây là đổi màu font tính năng giải pháp
                                   key={child.id}
                                   href={child.link}
-                                  className={`text-primary hover:text-purple-800 [&>*]:text-xs ${pathname === child.link
-                                    ? "text-purple-800 font-semibold"
+                                  className={`text-primary hover:text-purple-900 [&>*]:text-xs ${pathname === child.link
+                                    ? "text-purple-900 font-semibold"
                                     : "text-primary"
                                     }`}
                                 >
@@ -84,9 +84,10 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                             legacyBehavior
                             passHref
                             className={`${pathname === "/"
-                              ? "text-purple-800 font-semibold"
+                              // ở đây đổi màu bức phá doanh thu
+                              ? "text-purple-900 font-semibold"
                               : pathname.includes(item.link)
-                                ? "text-purple-800 font-semibold"
+                                ? "text-purple-900 font-semibold"
                                 : "text-primary"
                               }`}
                           >
@@ -94,9 +95,9 @@ const Navbar = ({ token }: { token: string | undefined | null }) => {
                               className={navigationMenuTriggerStyle()}
                             >
                               <span
-                              // ở đây là tha đổi màu trên header
+                              // ở đây Home xuất hiện trên navbar
                                 className={`text-primary ${pathname === item.link
-                                  ? "text-purple-500 font-semibold"
+                                  ? "text-purple-900 font-semibold"
                                   : "text-primary"
                                   }`}
                               >
