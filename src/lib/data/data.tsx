@@ -16,146 +16,153 @@ export const homeFeaturesData = [
     title: "Đào tạo cơ bản",
     description: (
       <>
-        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
-        <span>ERPViet</span>
-      </>
-    ),
-    list: ["Đáp ứng mọi yêu cầu của doanh nghiệp", "Mạnh mẽ hơn hầu hết các phần mềm quản trị doanh nghiệp thông thường khác", "Thân thiện - Dễ sử dụng"],
-    link: "/services/google-paid-ads",
-  },
-  {
-    id: 2,
-    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
-    title: "Đào tạo cơ bản",
-    description: (
-      <>
-        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
-        <span>ERPViet</span>
+        Khóa học nhập môn sử dụng phần mềm quản trị ERP cho người mới
       </>
     ),
     list: [
-      "Đáp ứng mọi yêu cầu của doanh nghiệp",
-      "Mạnh mẽ hơn hầu hết các phần mềm quản trị doanh nghiệp thông thường khác",
-      "Thân thiện - Dễ sử dụng",
+      "Giới thiệu giao diện, thao tác chính, quy trình chuẩn cơ bản", 
+      "Phù hợp với tất cả nhân sự lần đầu sử dụng ERP", 
+      "Giúp xây nền tảng vững chắc trước khi học nâng cao"],
+    link: "/services/google-paid-ads",
+  },
+
+  {
+    id: 2,
+    image: <img src="/images/pages/home/brands/xtrain2.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo nâng cao",
+    description: (
+      <>
+        Khóa học chuyên sâu theo phân hệ: kế toán, bán hàng, mua hàng, sản xuất…
+      </>
+    ),
+    list: [
+      "Dành cho quản lý, trưởng bộ phận hoặc chuyên viên nghiệp vụ",
+      "Hướng dẫn xử lý nghiệp vụ phức tạp và tối ưu quy trình",
+      "Giúp khai thác toàn diện sức mạnh hệ thống",
     ],
     link: "/services/software-development",
   },
+
   {
     id: 3,
-    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
-    title: "Đào tạo cơ bản",
+    image: <img src="/images/pages/home/brands/xtrain3.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo theo vai trò",
     description: (
       <>
-        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
-        <span>ERPViet</span>
+        Đào tạo riêng biệt cho từng vị trí như kế toán, nhân sự, điều hành, kho…
       </>
     ),
     list: [
-      "Đáp ứng mọi yêu cầu của doanh nghiệp",
-      "Mạnh mẽ hơn hầu hết các phần mềm quản trị doanh nghiệp thông thường khác",
+      "Người học chỉ tập trung vào phần mình sử dụng",
+      "Giảm thời gian đào tạo, tăng hiệu quả tiếp thu",
+      "Dễ triển khai đại trà trong doanh nghiệp",
     ],
     link: "/services/social-media-paid-ads",
   },
+  
   {
     id: 4,
-    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
-    title: "Đào tạo cơ bản",
-    description: (
+    image: <img src="/images/pages/home/brands/xtrain4.png" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo theo lĩnh vực",
+        description: (
       <>
-        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
-        <span>ERPViet</span>
+        Khóa học thiết kế riêng theo ngành: sản xuất, bán lẻ, dịch vụ, xây dựng…
       </>
     ),
     list: [
-      "Event & Target Setup",
-      "User Behaviour",
-      "Google Analytics",
-      "Google Tag Manager",
-      "Looker Studio",
+      "Quy trình mô phỏng đúng thực tế của từng lĩnh vực",
+      "Giúp doanh nghiệp triển khai nhanh và sát nhu cầu",
+      "Tăng tỷ lệ ứng dụng thành công",
     ],
     link: "/services/data-analytics",
   },
+
+
   {
     id: 5,
-    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
-    title: "Đào tạo cơ bản",
-    description: (
+    image: <img src="/images/pages/home/brands/xtrain5.png" alt="Đào tạo cơ bản" width="92" height="92" />,
+    title: "Đào tạo triển khai",
+            description: (
       <>
-        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
-        <span>ERPViet</span>
+        Hướng dẫn đội ngũ IT và nội bộ triển khai hệ thống ERP từ A–Z
       </>
     ),
     list: [
-      "Custom Design and Development",
-      "Plugin Integration and Functionality",
-      "Security and Maintenance",
+      "Phân tích yêu cầu, cấu hình hệ thống, kiểm thử UAT",
+      "Tự chủ triển khai mà không lệ thuộc hoàn toàn bên ngoài",
+      "Tiết kiệm chi phí triển khai và bảo trì",
     ],
     link: "/services/wordpress-development",
   },
+
   {
     id: 6,
-    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
-    title: "Đào tạo cơ bản",
-    description: (
+    image: <img src="/images/pages/home/brands/xtrain6.png" alt="Đào tạo cơ bản" width="92" height="92" />,
+    title: "Đào tạo quản trị hệ thống",
+            description: (
       <>
-        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
-        <span>ERPViet</span>
+        Trang bị kiến thức cho quản trị viên hệ thống ERP
       </>
     ),
     list: [
-      "Custom Store Design",
-      "Product and Inventory Management",
-      "Payment and Security Integration",
+      "Quản lý user, phân quyền, sao lưu dữ liệu, bảo mật thông tin",
+      "Theo dõi hiệu suất và vận hành hệ thống ổn định",
+      "Phù hợp cho IT hoặc team kỹ thuật nội bộ",
     ],
     link: "/services/shopify-store-development",
   },
+
   {
     id: 7,
     image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
-    title: "Đào tạo cơ bản",
+    title: "Đào tạo đào tạo viên (Train the Trainer)",
+
     description: (
       <>
-        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
-        <span>ERPViet</span>
-      </>
-    ),
-    list: ["Research on project", "Wireframe & prototype", "Responsive design"],
-    link: "/services/ui-ux-and-graphic-design",
-  },
-  {
-    id: 8,
-    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
-    title: "Đào tạo cơ bản",
-    description: (
-      <>
-        Đào tạo sử dụng phần mềm quản trị doanh nghiệp{" "}
-        <span>ERPViet</span>
+        Đào tạo nhân sự nội bộ có khả năng hướng dẫn lại cho người khác
       </>
     ),
     list: [
-      "Custom Design and Development",
-      "Plugin Integration and Functionality",
-      "Security and Maintenance",
+      "Tạo nhân bản người dùng trong công ty", 
+      "Giảm phụ thuộc vào bên thứ ba khi mở rộng nhân sự", 
+      "Thúc đẩy văn hóa học tập nội bộ"
+    ],
+    link: "/services/ui-ux-and-graphic-design",
+  },
+
+  {
+    id: 8,
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo từ xa – Online",
+    description: (
+      <>
+        Các khóa học online qua video hoặc Zoom có tài liệu và bài tập thực hành
+      </>
+    ),
+    list: [
+      "Học mọi lúc, mọi nơi, dễ dàng truy cập và ôn tập lại",
+      "Phù hợp với nhân sự làm việc từ xa hoặc chi nhánh khác",
+      "Linh hoạt nhưng vẫn đảm bảo chất lượng",
     ],
     link: "/services/content-writing-and-seo",
   },
-  // {
-  //   id: 9,
-  //   image: <Contents />,
-  //   title: "Content Development",
-  //   description: (
-  //     <>
-  //       Crafting <span>high-converting</span> Shopify stores for your e-commerce
-  //       success.
-  //     </>
-  //   ),
-  //   list: [
-  //     "Custom Store Design",
-  //     "Product and Inventory Management",
-  //     "Payment and Security Integration",
-  //   ],
-  //   link: "/services/shopify-store-development",
-  // },
+
+  {
+    id: 9,
+    image: <img src="/images/pages/home/brands/xtrain1.webp" alt="Đào tạo cơ bản" width="150" height="150" />,
+    title: "Đào tạo cập nhật phiên bản",
+    description: (
+      <>
+        Khi hệ thống ERP được nâng cấp, người dùng cần được cập nhật lại
+      </>
+    ),
+    list: [
+      "Đào tạo tính năng mới, quy trình mới",
+      "Tránh nhầm lẫn khi sử dụng phiên bản mới",
+      "Đảm bảo người dùng luôn làm đúng thao tác chuẩn",
+    ],
+    link: "/services/shopify-store-development",
+  },
 ];
 
 export const homeTestimonialData = {
